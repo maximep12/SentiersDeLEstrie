@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sentier2.0", "server\Sentier2.0.csproj", "{334C4F27-8F1C-470F-9D25-2D72C2B03EA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{2C6BABAC-D68D-46F1-8490-FF5C82FEB4FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{334C4F27-8F1C-470F-9D25-2D72C2B03EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334C4F27-8F1C-470F-9D25-2D72C2B03EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334C4F27-8F1C-470F-9D25-2D72C2B03EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334C4F27-8F1C-470F-9D25-2D72C2B03EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6BABAC-D68D-46F1-8490-FF5C82FEB4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6BABAC-D68D-46F1-8490-FF5C82FEB4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6BABAC-D68D-46F1-8490-FF5C82FEB4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6BABAC-D68D-46F1-8490-FF5C82FEB4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FB679A1-6FD8-4BCA-8BA3-7CF1189D424D}
+	EndGlobalSection
+EndGlobal

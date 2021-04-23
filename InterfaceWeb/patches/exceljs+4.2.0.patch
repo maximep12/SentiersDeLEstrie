@@ -1,0 +1,260 @@
+diff --git a/node_modules/exceljs/dist/es5/doc/defined-names.js b/node_modules/exceljs/dist/es5/doc/defined-names.js
+index dd302e9..d39e022 100644
+--- a/node_modules/exceljs/dist/es5/doc/defined-names.js
++++ b/node_modules/exceljs/dist/es5/doc/defined-names.js
+@@ -16,10 +16,10 @@ var Range = require('./range');
+ 
+ var rangeRegexp = /[$](\w+)[$](\d+)(:[$](\w+)[$](\d+))?/;
+ 
+-var DefinedNames = /*#__PURE__*/function () {
++var DefinedNames = module.exports =/*#__PURE__*/function () {
+   function DefinedNames() {
+-    _classCallCheck(this, DefinedNames);
+-
++    //_classCallCheck(this, DefinedNames);
++    this.formulaMap = {};
+     this.matrixMap = {};
+   }
+ 
+@@ -36,10 +36,16 @@ var DefinedNames = /*#__PURE__*/function () {
+       var location = colCache.decodeEx(locStr);
+       this.addEx(location, name);
+     }
++  }, {
++    key: "addFormula",
++    value: function addFormula(formula, name) {
++      this.addEx(formula, name);
++    }
+   }, {
+     key: "addEx",
+     value: function addEx(location, name) {
+       var matrix = this.getMatrix(name);
++      console.log("hit");
+ 
+       if (location.top) {
+         for (var col = location.left; col <= location.right; col++) {
+@@ -170,7 +176,8 @@ var DefinedNames = /*#__PURE__*/function () {
+       if (!matrix) {
+         return {
+           name: name,
+-          ranges: []
++          ranges: [],
++          formula: this.formulaMap[name]
+         };
+       } // mark and sweep!
+ 
+@@ -185,7 +192,8 @@ var DefinedNames = /*#__PURE__*/function () {
+       });
+       return {
+         name: name,
+-        ranges: ranges
++        ranges: ranges,
++        formula: this.formulaMap[name]
+       };
+     }
+   }, {
+@@ -233,14 +241,14 @@ var DefinedNames = /*#__PURE__*/function () {
+       // To get names per cell - just iterate over all names finding cells if they exist
+       return _.map(this.matrixMap, function (matrix, name) {
+         return _this4.getRanges(name, matrix);
+-      }).filter(function (definedName) {
+-        return definedName.ranges.length;
+       });
+     },
+     set: function set(value) {
+       // value is [ { name, ranges }, ... ]
+       var matrixMap = this.matrixMap = {};
++      var formulaMap = this.formulaMap = {};
+       value.forEach(function (definedName) {
++        formulaMap[definedName.name] = definedName.formula;
+         var matrix = matrixMap[definedName.name] = new CellMatrix();
+         definedName.ranges.forEach(function (rangeStr) {
+           if (rangeRegexp.test(rangeStr.split('!').pop() || '')) {
+@@ -254,5 +262,5 @@ var DefinedNames = /*#__PURE__*/function () {
+   return DefinedNames;
+ }();
+ 
+-module.exports = DefinedNames;
++//module.exports = DefinedNames;
+ //# sourceMappingURL=defined-names.js.map
+diff --git a/node_modules/exceljs/dist/es5/xlsx/xform/book/defined-name-xform.js b/node_modules/exceljs/dist/es5/xlsx/xform/book/defined-name-xform.js
+index 79ac00f..2a1b03f 100644
+--- a/node_modules/exceljs/dist/es5/xlsx/xform/book/defined-name-xform.js
++++ b/node_modules/exceljs/dist/es5/xlsx/xform/book/defined-name-xform.js
+@@ -42,13 +42,18 @@ var DefinedNamesXform = /*#__PURE__*/function (_BaseXform) {
+     value: function render(xmlStream, model) {
+       // <definedNames>
+       //   <definedName name="name">name.ranges.join(',')</definedName>
++      //   <definedName name="formula">name.formula</definedName>
+       //   <definedName name="_xlnm.Print_Area" localSheetId="0">name.ranges.join(',')</definedName>
+       // </definedNames>
+       xmlStream.openNode('definedName', {
+         name: model.name,
+         localSheetId: model.localSheetId
+       });
+-      xmlStream.writeText(model.ranges.join(','));
++      if(model.formula){
++        xmlStream.writeText(model.formula);
++      } else {
++        xmlStream.writeText(model.ranges.join(','));
++      }
+       xmlStream.closeNode();
+     }
+   }, {
+@@ -75,9 +80,16 @@ var DefinedNamesXform = /*#__PURE__*/function (_BaseXform) {
+     value: function parseClose() {
+       this.model = {
+         name: this._parsedName,
+-        ranges: extractRanges(this._parsedText.join(''))
++        ranges: [],
++        formula: ''
+       };
+ 
++      if (isFormula(this._parsedText.join(''))) {
++        this.model.formula = this._parsedText.join('');
++      } else {
++        this.model.ranges = extractRanges(this._parsedText.join(''));
++      }
++
+       if (this._parsedLocalSheetId !== undefined) {
+         this.model.localSheetId = parseInt(this._parsedLocalSheetId, 10);
+       }
+@@ -86,6 +98,11 @@ var DefinedNamesXform = /*#__PURE__*/function (_BaseXform) {
+     }
+   }]);
+ 
++  function isFormula(value) {
++    var formulaRegexp = /\w+(.+).*/; // Do not manage constants , only formulae with functions !
++    return formulaRegexp.test(value);
++  }
++
+   return DefinedNamesXform;
+ }(BaseXform);
+ 
+diff --git a/node_modules/exceljs/lib/doc/defined-names.js b/node_modules/exceljs/lib/doc/defined-names.js
+index cb3a494..52cb9b6 100644
+--- a/node_modules/exceljs/lib/doc/defined-names.js
++++ b/node_modules/exceljs/lib/doc/defined-names.js
+@@ -9,7 +9,8 @@ const rangeRegexp = /[$](\w+)[$](\d+)(:[$](\w+)[$](\d+))?/;
+ 
+ class DefinedNames {
+   constructor() {
+-    this.matrixMap = {};
++    this.matrixMap = {}
++    this.formulaMap = {}
+   }
+ 
+   getMatrix(name) {
+@@ -23,6 +24,14 @@ class DefinedNames {
+     this.addEx(location, name);
+   }
+ 
++  addFormula(formula, name){
++    this.addExFormula(formula, name);
++  }
++
++  addExFormula(formula, name){
++    const matrix = this.formulaMap[name] || (this.formulaMap[name] = formula);
++  }
++
+   addEx(location, name) {
+     const matrix = this.getMatrix(name);
+     if (location.top) {
+@@ -126,7 +135,7 @@ class DefinedNames {
+     matrix = matrix || this.matrixMap[name];
+ 
+     if (!matrix) {
+-      return {name, ranges: []};
++      return {name, ranges: [], formula: this.formulaMap[name]};
+     }
+ 
+     // mark and sweep!
+@@ -141,6 +150,7 @@ class DefinedNames {
+     return {
+       name,
+       ranges,
++      formula: this.formulaMap[name]
+     };
+   }
+ 
+@@ -174,15 +184,23 @@ class DefinedNames {
+ 
+   get model() {
+     // To get names per cell - just iterate over all names finding cells if they exist
+-    return _.map(this.matrixMap, (matrix, name) => this.getRanges(name, matrix)).filter(
+-      definedName => definedName.ranges.length
+-    );
++    // Adds names that represent a range
++    var model = _.map(this.matrixMap, (matrix, name) => this.getRanges(name, matrix));
++
++    // Adds names that represent a formula
++    for (const [key, value] of Object.entries(this.formulaMap)) {
++      model.push({name: key, ranges: [], formula: value})
++    }
++
++    return model;
+   }
+ 
+   set model(value) {
+     // value is [ { name, ranges }, ... ]
+     const matrixMap = (this.matrixMap = {});
++    const formulaMap = (this.formulaMap = {});
+     value.forEach(definedName => {
++      formulaMap[definedName.name] = definedName.formula;
+       const matrix = (matrixMap[definedName.name] = new CellMatrix());
+       definedName.ranges.forEach(rangeStr => {
+         if (rangeRegexp.test(rangeStr.split('!').pop() || '')) {
+diff --git a/node_modules/exceljs/lib/xlsx/xform/book/defined-name-xform.js b/node_modules/exceljs/lib/xlsx/xform/book/defined-name-xform.js
+index 9ed8fec..e8bc053 100644
+--- a/node_modules/exceljs/lib/xlsx/xform/book/defined-name-xform.js
++++ b/node_modules/exceljs/lib/xlsx/xform/book/defined-name-xform.js
+@@ -5,13 +5,19 @@ class DefinedNamesXform extends BaseXform {
+   render(xmlStream, model) {
+     // <definedNames>
+     //   <definedName name="name">name.ranges.join(',')</definedName>
++    //   <definedName name="formula">name.formula</definedName>
+     //   <definedName name="_xlnm.Print_Area" localSheetId="0">name.ranges.join(',')</definedName>
+     // </definedNames>
+     xmlStream.openNode('definedName', {
+       name: model.name,
+       localSheetId: model.localSheetId,
+     });
+-    xmlStream.writeText(model.ranges.join(','));
++    if (model.formula) {
++      xmlStream.writeText(model.formula);
++    } else {
++      xmlStream.writeText(model.ranges.join(','));
++    }
++
+     xmlStream.closeNode();
+   }
+ 
+@@ -34,8 +40,15 @@ class DefinedNamesXform extends BaseXform {
+   parseClose() {
+     this.model = {
+       name: this._parsedName,
+-      ranges: extractRanges(this._parsedText.join('')),
++      ranges: [],
++      formula: ''
+     };
++
++    if (isFormula(this._parsedText.join(''))) {
++      this.model.formula = this._parsedText.join('');
++    } else {
++      this.model.ranges = extractRanges(this._parsedText.join(''));
++    }
+     if (this._parsedLocalSheetId !== undefined) {
+       this.model.localSheetId = parseInt(this._parsedLocalSheetId, 10);
+     }
+@@ -43,6 +56,11 @@ class DefinedNamesXform extends BaseXform {
+   }
+ }
+ 
++function isFormula(value) {
++  var formulaRegexp = /\w+(.+).*/; // Do not manage constants , only formulae with functions !
++  return formulaRegexp.test(value);
++}
++
+ function isValidRange(range) {
+   try {
+     colCache.decodeEx(range);

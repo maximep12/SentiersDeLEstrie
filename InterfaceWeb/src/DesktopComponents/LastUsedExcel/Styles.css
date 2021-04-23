@@ -1,0 +1,39 @@
+div.contentSection {
+  border-top-style: solid;
+  border-width: medium;
+  width: 70%;
+}
+
+.contentSection div {
+  margin: 2%;
+}
+
+.contentSection {
+  margin: auto;
+}
+
+.buttonToDownloadFile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.errorMessage {
+  margin: 1% 30%;
+}
+
+div.lastUsedExcel {
+  margin: auto;
+  margin-top: 25px;
+  padding: 10px;
+  width: 70%;
+  border-radius: 0.5em;
+}
+
+.titleLastUsedExcel {
+  margin-top: "0px";
+}
+
+.alertLastUsedExcel {
+  margin-top: "10px";
+}

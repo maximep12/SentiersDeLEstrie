@@ -1,0 +1,16 @@
+image: ubuntu
+
+stages: 
+  - build
+#s
+build_app:
+  stage: build
+  script:
+    - export DEBIAN_FRONTEND=noninteractive
+    - apt update -y 
+    - apt install -y git 
+    - apt install -y npm
+    - apt install -y nodejs
+    - npm install -y expo-cli
+    - npm install
+    - npm run test --watchAll=false

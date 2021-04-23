@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sentiersestrieeducatif-a03d2",
+  "private_key_id": "4ef1b1e000702d0b638b6bb7fe79475bdb556b00",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAieYmre+lq8B9\nDF2x5RLcNMXEwSgI/UG9P3NvV+TPg5ADu8m1ifwjVpzydLVbwOFy4os12G8nj0uT\nOplNBWx9cA6TPyHo0NkhQX4tFSOqwqg0DffGeNDkBqPilUkb2GdN0OR8nrh7VGPe\nyZ0e3LpNl7Fb3WpvoHwn5huCSDHiWE5+XdGwbB/HQz3+jseDb2raQoE/EmHMuVDb\n0r8/VwJjf8FBAriKEfLiC73IUbV6AlmHW98f2Yn1jmVViwFD7x2zc7h0eU/k0lgz\nUcuUegU1L41NrLUgqhY2SvF9a4ZzhD6bZ81zXy4A7WuGNZJOxn9mrZ+hyFuLGVEV\nEnl/NMR7AgMBAAECggEAPdnOumwzyPe0nTckvioFdgHp6jvWnZSl0qKYdZM5qMPt\ntpVTxeKuwbdoMab2P6RliB9ocwK1KnMo5wHzD0AHyv/9XqXwQbcdmUZNvzPEQm3H\n1PkLuJFFIYtUiExGsRBCl0fcrn/aaZwBfSctNyXXH2f0jLtDHtriJ3sPKToB9GC0\nky5EXvhpXaBkcW/mpzGcv14SMHTP7wvgWwdXsQahK3p8bGt8WWIVYtlNtxt7rvf9\n3gatTuPVfm8F/23bEQIElitXksma47Z5VVYm9C4BTC+xJoGuyaMoBQC4oJLT1v1Z\n8WDmkIuU6uYbfPCinaW1VgZRDK9nhXYLAGm8EVYNeQKBgQDzKk2pHSHAGZhbB88a\nHPWaF+IMMtspznV86pe01B+cZeLXS/HE3lujjl8vP3xF2x+xu69UnyvGk41w3ANE\nwQJrq7AaG6tspYNUFpooJYYwxvz2791ra2lp1O/xPelHnknligWkZgidUiip5fUi\nuX6WUAONIV27TvRlXde4Tj04LwKBgQDKs4T1bau4jcZ9CufNtSu2v+9T9Fuxfttl\nDvDPAGm/7FNu+W7EdLVKj6AlnWfaxGb68aqtMAiIBxQmaNMPayOW8r2gfEWtfCn6\nDu80gf7Ej0KcILV0+xZDokq5OBwu7h3e2mkzmfO/xY5Dfe9uyhAGOgRetP1qlmx8\n1lZjVDqZdQKBgQDZF7WJ/DY7mR5KdyhQ+fXTgusPVQARzP9bbN3QVWl7agMhj+3j\ng1lxJhSYzCcY/s7HEPcxp4GfofAvCF3qrh6JHhj01isvrn0XP66VlRq+xYjmtbOK\nybStBazKRinVBN6YjacH5Qhf3A/tzx4RyGXZsMna4CUcqxrKvQNwynkhhQKBgGui\nR8fLJJQrNGrRj6U7vqqb4InEB6yIoBdZh6VjosO2ydbzvE21a07cVT2kB7Gy+Lvn\n96lfCCizGZALuYdGbO+KlgbR9m3YsLGHnJ1VKeNV7xjYhYJIkdn4I5WWpeCFsHbV\no2czKKt8S76q8Kjzwu6LgCaKFMa0eYcQiW7VGwjBAoGANKTOJh1poP07G5/W3V9W\nmW32zq74zIYbZf4Gsn7ocOjvBxh3l/RAAEymM+YfBifK3yu+WQekZoKjdvZy/tcM\n1eOQjvmTbMlRSj8+mYh5zOoCOWM5zo/npk4rEoJHYgB6/sS7qdR5zFXYEPpbeUYp\nPoKVPFtFBemNnpNn7Y3MN20=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-np7ry@sentiersestrieeducatif-a03d2.iam.gserviceaccount.com",
+  "client_id": "113243538239518543754",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-np7ry%40sentiersestrieeducatif-a03d2.iam.gserviceaccount.com"
+}

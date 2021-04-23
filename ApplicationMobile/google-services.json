@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "174235464253",
+    "project_id": "sentiersestrieeducatif-a03d2",
+    "storage_bucket": "sentiersestrieeducatif-a03d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174235464253:android:9be4f7a9a41321a5e47054",
+        "android_client_info": {
+          "package_name": "ca.lessentiersdelestrie.sentiersEstrie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174235464253-0hti3a3v3h8879kqchbchtu1p8isqsri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk_MYF3XtPfqGnkwFDK9Lh6JQjKuCHezc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174235464253-0hti3a3v3h8879kqchbchtu1p8isqsri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

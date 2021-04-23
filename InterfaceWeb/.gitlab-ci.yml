@@ -1,0 +1,28 @@
+image: ubuntu
+
+stages: 
+  - build
+
+build_app:
+  stage: build
+  script:
+    - export DEBIAN_FRONTEND=noninteractive
+    - apt update -y 
+    - apt install -y git 
+    - apt install -y npm
+    - apt install -y curl
+
+    # Installer version 14 de node, apt installe la version 10 par defaut
+    - curl -fsSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+    - echo "deb https://deb.nodesource.com/node_14.x focal main" | tee /etc/apt/sources.list.d/nodesource.list
+    - echo "deb-src https://deb.nodesource.com/node_14.x focal main" | tee -a /etc/apt/sources.list.d/nodesource.list
+    - apt-get update
+    - apt-get install -y nodejs
+
+    - npm install -y expo-cli
+    - npm install
+
+    # Patch-package applique les modifications nécessaires à ExcelJS
+    - npm run postinstall
+
+    - npm run test --watchAll=false

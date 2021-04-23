@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.0ce396e5.chunk.css",
+    "main.js": "./static/js/main.71117090.chunk.js",
+    "main.js.map": "./static/js/main.71117090.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.e13ed76f.js",
+    "runtime-main.js.map": "./static/js/runtime-main.e13ed76f.js.map",
+    "static/js/2.6b1b0e5c.chunk.js": "./static/js/2.6b1b0e5c.chunk.js",
+    "static/js/2.6b1b0e5c.chunk.js.map": "./static/js/2.6b1b0e5c.chunk.js.map",
+    "static/js/3.06c79d62.chunk.js": "./static/js/3.06c79d62.chunk.js",
+    "static/js/3.06c79d62.chunk.js.map": "./static/js/3.06c79d62.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.0ce396e5.chunk.css.map": "./static/css/main.0ce396e5.chunk.css.map",
+    "static/js/2.6b1b0e5c.chunk.js.LICENSE.txt": "./static/js/2.6b1b0e5c.chunk.js.LICENSE.txt",
+    "static/media/logoUniversiteSherbrooke.png": "./static/media/logoUniversiteSherbrooke.fd5b9722.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e13ed76f.js",
+    "static/js/2.6b1b0e5c.chunk.js",
+    "static/css/main.0ce396e5.chunk.css",
+    "static/js/main.71117090.chunk.js"
+  ]
+}

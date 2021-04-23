@@ -1,0 +1,221 @@
+IDSERVICE,NOM,ALTITUDE,ZONE,TYPE,ETAT,GESTION,OPERATEUR,METHODE,COMMENT,OFFX,OFFY,LIGNE_VIS,ICONE_VIS,OFFX_TEX,OFFY_TEX,VIS_TEX,longitude,LATITUDE
+"1",Lac Trousers,248.339324951,Bolton,Camping aménagé,ouvert,Camping LAc Trousers,Gilles Turgeon,Estimé,,"-230","-252",solid,oui,"0","80",non,-72.335900602953771,45.248506141211102
+"3",L'Iris Bleu,239.916412354,Bolton,Hébergement,ouvert,L'Iris Bleu,Daniel Delorme,GPS,,"81","-45",solid,oui,"0","80",non,-72.356103739669521,45.199405473058775
+"4",SPA des Chutes de Bolton,239.691619873,Bolton,Hébergement,ouvert,SPA des Chutes de Bolton,Daniel Delorme,GPS,,"78","58",solid,oui,"0","80",non,-72.356092704082485,45.199918312439046
+"6",S09,239.288696289,Bolton,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"-100","40",solid,oui,"0","60",oui,-72.356239638127178,45.206768700162826
+"7",S10,240.009689331,Bolton,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"-200","50",solid,oui,"0","80",oui,-72.353973170034465,45.217933247288968
+"8",S11,244.219955444,Bolton,Parking,ouvert,SE,Gilles Turgeon,GPS,,"-160","-140",solid,oui,"0","-150",oui,-72.357424287377142,45.230834095430879
+"9",S12,286.498962402,Bolton,Parking,ouvert,Missisquoi Nord,Gilles Turgeon,Estimé,,"150","99",solid,oui,"0","60",oui,-72.378030283996182,45.268402099722898
+"11",S14,268.997955322,Bolton,Parking,ouvert,SE,Daniel Delorme,Estimé,,"160","140",solid,oui,"0","60",oui,-72.326128072618957,45.279298630597935
+"13",S16,288.980346680,Bolton,Parking,ouvert,SE,Gilles Turgeon,GPS,,"125","-102",solid,oui,"180","-40",oui,-72.258904257883373,45.293425203110367
+"15",PV24,366.802764893,Bolton,Point de vue,ouvert,SE,Daniel Delorme,GPS,,"146","68",solid,oui,"160","-40",oui,-72.366417100000007,45.221875500000003
+"16",PV30,495.358001709,Bolton,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-86","170",solid,oui,"-160","-40",oui,-72.281579501470361,45.274511752179109
+"17",PV32,568.471374512,Bolton,Point de vue,ouvert,SE,Daniel Delorme,GPS,,"-80","-400",solid,oui,"0","-150",oui,-72.279004485769136,45.271550723222489
+"18",PV31,599.638549805,Bolton,Point de vue,ouvert,SE,Daniel Delorme,GPS,,"-150","0",solid,oui,"0","-150",oui,-72.278580669561023,45.272765739515251
+"19",PV34,505.243377686,Bolton,Point de vue,ouvert,SE,Daniel Delorme,Estimé,,"-300","80",solid,oui,"-160","-40",oui,-72.278227019036763,45.276955897551488
+"20",PV35,497.211212158,Bolton,Point de vue,ouvert,SE,Daniel Delorme,Estimé,,"-200","200",solid,oui,"-160","-40",oui,-72.277796019803347,45.277355247190961
+"21",PV26,295.279541016,Bolton,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"1","138",solid,oui,"0","60",oui,-72.360299031645795,45.231573053653712
+"23",PV27,261.351806641,Bolton,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"172","-58",solid,oui,"160","-40",oui,-72.353550873234340,45.243697423857007
+"24",PV28,267.316558838,Bolton,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"119","185",solid,oui,"160","-40",oui,-72.353219990627181,45.245546997463997
+"25",PV29,319.834625244,Bolton,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-180","-120",solid,oui,"0","-150",oui,-72.338515644313603,45.255035043316290
+"27",PV14,400.285980225,Bolton,Point de vue,ouvert,SE,Marcel Grenier,GPS,,"-150","0",solid,oui,"0","60",oui,-72.481142653906318,45.120461948924806
+"29",Entre Cîmes et Racines,301.825042725,Bolton,Camping aménagé,ouvert,Entre Cîmes et Racines,Gilles Turgeon,Estimé,,"280","150",no,oui,"0","80",non,-72.304909495705303,45.253801300608913
+"30",Place McKenzie,241.427032471,Brompton,Camping aménagé,ouvert,Plage McKensie,Gilles Turgeon,Estimé,,"0","200",solid,oui,"0","80",non,-72.142041444850790,45.473899132602831
+"31",S21,279.236572266,Brompton,Parking,ouvert,SE,Gilles Turgeon,GPS,,"-150","92",solid,oui,"0","80",oui,-72.186263477671218,45.392136529739858
+"32",S22 (été),278.357299805,Brompton,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"140","140",solid,oui,"160","-60",oui,-72.174772960830921,45.422439360422146
+"33",S23,249.742767334,Brompton,Parking,ouvert,SE,Gilles Turgeon,GPS,,"-28","129",solid,oui,"0","60",oui,-72.165594877915524,45.455195263683358
+"35",PV74,286.559631348,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"26","177",solid,oui,"-160","-40",oui,-72.181037612500589,45.397738323267752
+"36",PV75,279.740692139,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-200","40",solid,oui,"-160","-40",oui,-72.175368596108441,45.403306673021604
+"38",PV82,369.965942383,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-281","93",solid,oui,"-160","-40",oui,-72.172145670521360,45.430925043934160
+"39",PV88,260.675994873,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"82","200",solid,oui,"0","60",oui,-72.170572742611498,45.454935248623464
+"41",PV85,327.909179688,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"116","-70",solid,oui,"160","-40",oui,-72.166864443806460,45.432217119874075
+"42",PV89,322.763824463,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-150","0",solid,oui,"0","60",oui,-72.178902490306371,45.465398638214154
+"43",PV84,400.047180176,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-150","-300",solid,oui,"0","-150",oui,-72.169711649659234,45.431740435474737
+"44",PV76,346.137359619,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-40","-500",solid,oui,"0","-150",oui,-72.167726479711177,45.413285077271169
+"45",PV77,419.625183105,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-300","-260",solid,oui,"-160","-40",oui,-72.173926405849471,45.414350417164336
+"46",PV78,398.629455566,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-137","-27",solid,oui,"-160","-40",oui,-72.175763886662850,45.414516714123266
+"47",PV79,453.057434082,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-20","150",solid,oui,"0","60",oui,-72.174831316115899,45.416208936554661
+"48",PV80,400.583770752,Brompton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"25","300",solid,oui,"0","60",oui,-72.168822665008022,45.417829158437797
+"49",PV81,379.998352051,Brompton,Point de vue,ouvert,SE,Yvan Guay,GPS,,"120","300",solid,oui,"160","-40",oui,-72.167698232698299,45.418172481172157
+"51",S30,379.731658936,Monts Stoke,Toilettes,ouvert,SE,Gilles Turgeon,Estimé,,"-130","183",no,oui,"0","80",non,-71.676117908350903,45.590921476757195
+"52",Grotte de l'Ours,523.502075195,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"150","-300",solid,oui,"400","-40",non,-71.714734485589261,45.552253176167895
+"54",PV143,599.620605469,Monts Stoke,Point de vue,ouvert,SE,Sylvie L'Heureux,GPS,,"-200","-100",solid,oui,"180","-40",oui,-71.688867148044181,45.568910214769566
+"55",PV144,613.579040527,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"350","350",solid,oui,"180","-40",oui,-71.677952850451817,45.572708372668842
+"57",PV146,631.695678711,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"350","84",solid,oui,"180","-40",oui,-71.678099869033460,45.571944613651809
+"58",PV147,644.844360352,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"350","-84",solid,oui,"180","-40",oui,-71.678544864272865,45.571602464364339
+"60",PV139,530.155761719,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-240","-20",solid,oui,"0","60",oui,-71.714589146946594,45.552438787957485
+"63",S31,232.224212646,Monts Stoke,Parking,ouvert,Mont-Élan,Gilles Turgeon,GPS,,"530","160",no,oui,"0","60",oui,-71.672728913118902,45.506377176088840
+"65",PV136,525.645996094,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-300","20",solid,oui,"-180","-40",oui,-71.720566446178267,45.547687469691077
+"66",PV153,475.079254150,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"150","400",solid,oui,"180","-40",oui,-71.705106277234606,45.539850222587191
+"67",PV150,498.710876465,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"41","102",solid,oui,"180","-40",oui,-71.712566338695751,45.547043739527467
+"68",PV152,497.366485596,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-250","-300",solid,oui,"-180","-40",oui,-71.707449186809257,45.541253353178185
+"69",PV135,573.743469238,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"140","200",solid,oui,"0","60",oui,-71.720152380161579,45.546101110696739
+"71",PV151,489.157897949,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"84","-21",solid,oui,"0","-160",oui,-71.712043475575882,45.546391627460686
+"72",Ruisseau Ives,534.979125977,Glen,Camping rustique,ouvert,SE,Daniel Delorme,GPS,,"48","82",solid,oui,"0","80",non,-72.398542399999997,45.191412700000001
+"73",La Tanière,217.644332886,Glen,Hébergement,ouvert,La tanière,Gilles Turgeon,Estimé,,"-41","-147",solid,oui,"0","80",non,-72.368867745262889,45.160008730203288
+"74",S07,232.306304932,Glen,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"290","-160",no,oui,"0","60",oui,-72.385909907911980,45.161418123416794
+"75",PV20,401.097595215,Glen,Point de vue,ouvert,SE,Daniel Delorme,GPS,,"-45","-168",solid,oui,"0","-150",oui,-72.398415305607614,45.166990465428427
+"76",PV21,421.101867676,Glen,Point de vue,ouvert,SE,Daniel Delorme,GPS,,"-135","-98",solid,oui,"0","-150",oui,-72.413545041194354,45.167838476637122
+"77",Camping des Sentiers,169.919067383,Kingsbury,Camping aménagé,ouvert,Arnold Giguère,Gilles Turgeon,Estimé,,"150","0",solid,oui,"0","80",non,-72.136749584137732,45.580684614764372
+"78",S24,269.910064697,Kingsbury,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"-100","-100",solid,oui,"0","-150",oui,-72.176361651079660,45.473094026961810
+"79",S25,161.078979492,Kingsbury,Parking,ouvert,SE,Gilles Turgeon,GPS,,"-250","-40",solid,oui,"-150","-40",oui,-72.138451928512495,45.586610681088963
+"80",PV103,170.000000000,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"200","-200",solid,oui,"0","-150",oui,-72.138681173564237,45.567389300734924
+"81",PV102,197.268493652,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-300","60",solid,oui,"-180","-40",oui,-72.146251666137431,45.561321131326920
+"83",PV91,316.921844482,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-400","-500",solid,oui,"0","-150",oui,-72.175818213600834,45.476637640017003
+"84",PV94,314.366180420,Kingsbury,Point de vue,ouvert,SE,Daniel Delorme,GPS,,"101","-83",solid,oui,"0","-150",oui,-72.179948699999997,45.491724900000001
+"85",PV92,281.824920654,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-142","137",solid,oui,"-160","-40",oui,-72.178868088169196,45.478244111645438
+"86",PV104,188.240112305,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-200","0",solid,oui,"-180","-40",oui,-72.140466666666669,45.572100000000006
+"87",PV98,210.000000000,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"160","11",solid,oui,"160","-40",oui,-72.156644094976031,45.544129519432623
+"89",PV93,328.443756104,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-93","23",solid,oui,"0","-150",oui,-72.174229305842900,45.489846999483056
+"90",PV95,263.768035889,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-155","-100",solid,oui,"0","-150",oui,-72.167706633026398,45.511457416318137
+"94",Ch. Fullerton,420.017395020,Mansonville,Parking,ouvert,RNMV,Jean-Marie Croteau,GPS,,"100","100",solid,oui,"0","60",oui,-72.437525048418451,45.081989547508691
+"95",André-Gagnon,188.869247437,Mansonville,Parking,ouvert,Missiquoi-Nord,Michel Grenier,GPS,,"180","0",solid,oui,"0","60",oui,-72.391035000000002,45.058978000000003
+"97",Lac Stukeley,310.276184082,Orford,Camping aménagé,ouvert,SÉPAQ,Gilles Turgeon,Estimé,,"-125","80",solid,oui,"0","80",non,-72.238025319426242,45.361678794668975
+"98",Lac Fraser,270.112579346,Orford,Téléphone,ouvert,SÉPAQ,Gilles Turgeon,Estimé,,"230","100",no,oui,"0","80",non,-72.172863309169756,45.379110432429734
+"99",Le Vallonnier,318.948425293,Orford,Camping rustique,ouvert,SÉPAQ,Gilles Turgeon,GPS,,"113","55",solid,oui,"0","80",non,-72.212676447128601,45.357370407019559
+"103",S20,309.968688965,Orford,Parking,ouvert,SE,Gilles Turgeon,GPS,,"-143","11",solid,oui,"0","-150",oui,-72.197439069171253,45.387423553204705
+"104",S17,369.490966797,Orford,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"10","100",solid,oui,"0","60",oui,-72.221414876016013,45.318192234323384
+"105",S18 (été),312.550811768,Orford,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"-395","40",solid,oui,"0","60",oui,-72.239046024333959,45.358252573237024
+"106",S19,265.922912598,Orford,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"300","60",solid,oui,"0","60",oui,-72.195897529554586,45.329638039906065
+"107",PV67,562.600952148,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"4","-172",solid,oui,"0","-150",oui,-72.208834196833990,45.369221674076073
+"108",PV50,781.577331543,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"160","360",solid,oui,"160","-40",oui,-72.242431197560819,45.314360347273080
+"109",PV48,823.627502441,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"250","80",solid,oui,"160","-40",oui,-72.239234172052946,45.312787315504792
+"110",PV46,832.384826660,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"178","-199",solid,oui,"160","-40",oui,-72.239706324658627,45.312248359130827
+"111",PV49,820.397033691,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"45","159",solid,oui,"160","-40",oui,-72.240158695972809,45.313255277158881
+"112",PV73,429.175170898,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"150","-150",solid,oui,"0","-150",oui,-72.194619061668064,45.378386101385622
+"113",PV65,589.976806641,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-122","-77",solid,oui,"0","60",oui,-72.211344059800368,45.369833542665042
+"114",PV62,409.585876465,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-250","60",solid,oui,"-160","-40",oui,-72.214489620422768,45.367781485130472
+"115",PV59,637.486450195,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-20","400",solid,oui,"0","60",oui,-72.246761791653654,45.341414113227152
+"116",PV154,303.775390625,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-200","-100",solid,oui,"0","-150",oui,-72.196335423980585,45.333864030125945
+"117",PV52,695.283996582,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"28","-250",solid,oui,"0","-150",oui,-72.246593985952160,45.327879351261132
+"118",PV53,708.407043457,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-210","-210",solid,oui,"-160","-40",oui,-72.247427230946485,45.328760959836757
+"119",PV54,707.958740234,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-270","-30",solid,oui,"-160","-40",oui,-72.247810535378534,45.329106797161643
+"120",PV37,354.115966797,Orford,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-147","0",solid,oui,"-160","-40",oui,-72.255210258677437,45.297454521880191
+"121",PV51,745.497497559,Orford,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-171","-30",solid,oui,"-160","-40",oui,-72.243286674462738,45.321206630632446
+"122",PV40,553.896484375,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-101","-84",solid,oui,"0","-150",oui,-72.249052733428627,45.300779149563489
+"123",PV41,607.418334961,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"36","-116",solid,oui,"0","-150",oui,-72.246852902941143,45.301187264428933
+"124",PV42,628.991149902,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"38","-119",solid,oui,"0","-150",oui,-72.243885290123089,45.302747304247305
+"126",PV43,662.546936035,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"107","-90",solid,oui,"160","-40",oui,-72.242169263086694,45.304068459825274
+"127",PV44,678.442687988,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"204","-82",solid,oui,"160","-40",oui,-72.242086868978490,45.305224743367845
+"128",PV45,694.139465332,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"217","-30",solid,oui,"160","-40",oui,-72.241873046628598,45.305885740251995
+"130",PV68,454.021728516,Orford,Point de vue,ouvert,SE,Sylvie L'Heureux,GPS,,"163","-97",solid,oui,"0","-150",oui,-72.198190481248417,45.376171527201784
+"131",PV60,485.104858398,Orford,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"21","133",solid,oui,"0","60",oui,-72.238779500476028,45.346119392705845
+"132",PV55,734.890930176,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-150","-210",solid,oui,"0","-150",oui,-72.249362528569861,45.334887544322278
+"133",PV56,737.380065918,Orford,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-300","-120",solid,oui,"-160","-40",oui,-72.248662777328505,45.337733334515207
+"134",PV57,703.268493652,Orford,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-300","0",solid,oui,"-160","-40",oui,-72.248900068224359,45.338545818534051
+"135",PV58,644.434020996,Orford,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-300","200",solid,oui,"-160","-40",oui,-72.249313184550473,45.339486209614954
+"136",PV47,828.954101562,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"267","-70",solid,oui,"160","-40",oui,-72.239448329678993,45.312734509514812
+"138",La Cabane à Sucre,268.071319580,Orford,Refuge,ouvert,SÉPAQ,Gilles Turgeon,Estimé,,"138","174",solid,oui,"0","80",non,-72.212160390994356,45.338209404224649
+"139",Le Castor,274.095611572,Orford,Refuge,ouvert,SÉPAQ,Gilles Turgeon,Estimé,,"217","-74",solid,oui,"0","80",non,-72.217503413723904,45.349085977476655
+"140",Le Vieux camp,278.359313965,Orford,Refuge,ouvert,SÉPAQ,Gilles Turgeon,GPS,,"-146","-84",solid,oui,"0","80",non,-72.198660563920498,45.336666938546657
+"141",Carrefour du Ruisseau Perdu,328.211700439,Orford,Piquenique,ouvert,SÉPAQ,Gilles Turgeon,GPS,,"122","-51",solid,oui,"0","80",non,-72.213320177292204,45.359781042371829
+"142",Le Ponceau,319.732727051,Orford,Piquenique,ouvert,SÉPAQ,Gilles Turgeon,Estimé,,"-5","84",solid,oui,"0","80",non,-72.232215073055414,45.350924001867853
+"143",S27 (été),121.124092102,Richmond,Parking,ouvert,SE,Gilles Turgeon,GPS,,"150","0",solid,oui,"0","80",oui,-72.126066409290388,45.634045044605749
+"146",S35 (été),129.036056519,Richmond,Parking,ouvert,SE,Jean-Marie Croteau,Estimé,,"-20","-200",solid,oui,"0","-250",oui,-72.135900000000007,45.640116666666664
+"148",PV115,180.787948608,Richmond,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-500","23",solid,oui,"-180","-40",oui,-72.136387298123168,45.587998724254234
+"149",PV116,194.776657104,Richmond,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-500","-50",solid,oui,"-180","-40",oui,-72.136436583713831,45.592512965845579
+"151",PV120,140.000000000,Richmond,Point de vue,ouvert,SE,Daniel Delorme,GPS,,"-300","50",solid,oui,"-180","-40",oui,-72.136231499999994,45.613365700000003
+"152",PV119,140.476867676,Richmond,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-400","30",solid,oui,"-180","-40",oui,-72.133250538499098,45.612077417496437
+"153",PV118,140.000000000,Richmond,Point de vue,ouvert,SE,Daniel Delorme,GPS,,"-300","-40",solid,oui,"-180","-40",oui,-72.135264399999997,45.610343999999998
+"154",aire de repos,149.931930542,Richmond,Piquenique,ouvert,MTQ,Gilles Turgeon,GPS,,"-37","-132",solid,oui,"0","80",non,-72.128804379852070,45.628737300776777
+"158",PV130,431.625030518,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-40","-220",solid,oui,"180","-40",oui,-71.736492397481200,45.536614472686672
+"161",PV129,461.982666016,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"140","50",solid,oui,"180","-40",oui,-71.741217946851506,45.532788888259937
+"162",PV132,570.054809570,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-114","-24",solid,oui,"-180","-40",oui,-71.726627406032861,45.538332701980714
+"163",PV134,565.596069336,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-390","-100",solid,oui,"-180","-40",oui,-71.721674282320521,45.545010708913097
+"167",S01,158.546020508,Sutton,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"25","162",solid,oui,"0","60",oui,-72.572033549106436,45.029441853231560
+"168",S03,525.334350586,Sutton,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"-73","100",solid,oui,"0","60",oui,-72.551249237699324,45.097365929635423
+"172",PV5,758.662231445,Sutton,Point de vue,ouvert,SE,Yvan Guay,GPS,,"140","-18",solid,oui,"0","-150",oui,-72.558155780920842,45.080114819724528
+"173",PV6,928.242431641,Sutton,Point de vue,ouvert,SE,Yvan Guay,GPS,,"-49","-181",solid,oui,"0","-150",oui,-72.545320153498395,45.080894169081461
+"174",PV2,540.151733398,Sutton,Point de vue,ouvert,SE,Yvan Guay,GPS,,"108","-55",solid,oui,"140","-40",oui,-72.586449984725334,45.046450330557725
+"175",PV3,560.595397949,Sutton,Point de vue,ouvert,SE,Yvan Guay,GPS,,"86","-129",solid,oui,"140","-40",oui,-72.583752855922654,45.048768513518006
+"176",PV1,503.229461670,Sutton,Point de vue,ouvert,SE,Gaétan Savard,GPS,,"118","-80",solid,oui,"140","-40",oui,-72.586834125987053,45.044528736060599
+"177",PV8,870.211853027,Sutton,Point de vue,ouvert,SE,Jonathan Dupont,GPS,,"-18","-98",solid,oui,"0","-150",oui,-72.539161969237924,45.081219554562594
+"180",S34,130.000000000,Windsor,Piquenique,ouvert,SE,,GPS,,"-20","150",no,oui,"0","80",non,-72.077144341779587,45.609912120450019
+"181",PV121,120.000129700,Windsor,Piquenique,ouvert,SE,,GPS,,"0","80",solid,oui,"0","80",non,-72.090099578960306,45.613702249426339
+"182",Camping Singer,466.230560303,Écho,Camping rustique,ouvert,SE,Yvan Guay,GPS,,"-27","101",solid,oui,"0","80",non,-72.474246224646578,45.126261555276038
+"183",Westfield,331.888031006,Écho,Camping rustique,ouvert,SE,Marcel Grenier,GPS,,"11","-113",solid,oui,"0","80",non,-72.407083344563503,45.155971657651683
+"184",S05,316.919372559,Écho,Parking,ouvert,SE,Jonathan Dupont,GPS,,"-114","-28",solid,oui,"0","60",oui,-72.505578700712860,45.126292903593900
+"185",S06,233.152587891,Écho,Parking,ouvert,SE,Yvan Guay,GPS,,"-200","300",solid,oui,"0","60",oui,-72.395067277494149,45.157932814475949
+"186",PV19,542.289611816,Écho,Point de vue,ouvert,SE,Jean-Marie Croteau,GPS,,"143","93",solid,oui,"160","-40",oui,-72.421301299999996,45.157003699999997
+"187",PV15,452.983581543,Écho,Point de vue,ouvert,SE,Yvan Guay,GPS,,"300","300",solid,oui,"160","-40",oui,-72.473878175278301,45.124425499386213
+"188",PV12,336.321899414,Écho,Point de vue,ouvert,SE,Yvan Guay,GPS,,"140","200",solid,oui,"160","-40",oui,-72.497367902978738,45.125625796982149
+"189",PV18,609.715881348,Écho,Point de vue,ouvert,SE,Yvan Guay,GPS,,"-179","-15",solid,oui,"-160","-40",oui,-72.436359528877134,45.151398860445752
+"190",PV17,630.359191895,Écho,Point de vue,ouvert,SE,Yvan Guay,GPS,,"-175","96",solid,oui,"-160","-40",oui,-72.438456168654398,45.149351686858139
+"191",PV13,443.067260742,Écho,Point de vue,ouvert,SE,Yvan Guay,GPS,,"-140","-130",solid,oui,"0","-150",oui,-72.481404994529498,45.118168156008778
+"192",PV16,729.184692383,Écho,Point de vue,ouvert,SE,Yvan Guay,GPS,,"17","-127",solid,oui,"0","-150",oui,-72.465207096446861,45.131738039351525
+"193",PV9,758.571166992,Écho,Point de vue,ouvert,SE,Jonathan Dupont,GPS,,"-228","15",solid,oui,"-140","-40",oui,-72.490486329680394,45.107941313332027
+"194",PV10,728.372436523,Écho,Point de vue,ouvert,SE,Jonathan Dupont,GPS,,"320","-200",solid,oui,"160","-40",oui,-72.487867990767526,45.108365018537370
+"196",PV61,412.886962891,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,"20111023","-250","-20",solid,oui,"-160","-40",oui,-72.211441621184349,45.363626154139638
+"197",PV63,578.797424316,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,"20111023","150","150",solid,oui,"0","60",oui,-72.208892432972789,45.371715445071459
+"202",PV22,517.275451660,Glen,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"30","-120",solid,oui,"160","-40",oui,-72.412412117039622,45.171329526835237
+"203",PV23,637.962524414,Glen,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-163","60",solid,oui,"-160","-40",oui,-72.403073790791439,45.190782276222798
+"204",S36,389.916778564,Monts Stoke,Parking,ouvert,SE,Gilles Turgeon,GPS,,"11","140",solid,oui,"0","60",oui,-71.738658444955945,45.536901382729411
+"207",PV101,188.404022217,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"200","-400",solid,oui,"180","-40",oui,-72.150077229620010,45.554889676262519
+"50",S29,318.919860840,Monts Stoke,Parking,ouvert,SE,Gilles Turgeon,GPS,,"99","112",solid,oui,"0","60",oui,-71.742996219999995,45.556850429999997
+"209",PV64,588.462463379,Orford,Point de vue,ouvert,SÉPAQ,Gilles Turgeon,GPS,,"160","9",solid,oui,"0","60",oui,-72.209734981879578,45.370321031659842
+"210",PV141,546.163269043,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,"20120903","260","85",solid,oui,"180","-40",oui,-71.702067999999997,45.562832000000000
+"211",PV140,521.756530762,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,"20120903","280","-160",solid,oui,"180","-40",oui,-71.714287999999996,45.552194000000000
+"212",PV36,482.868316650,Bolton,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"176","161",solid,oui,"160","-40",oui,-72.277498633589289,45.277887671766869
+"213",PV133,539.240478516,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20120923","-30","198",solid,oui,"180","-40",oui,-71.723217748324970,45.538769438383099
+"214",Point d'eau,254.826049805,Bolton,Point d'eau,ouvert,SE,Jean-Marie Croteau,GPS,Point d'eau,"47","-159",solid,oui,"0","80",non,-72.328552250000001,45.278400419999997
+"215",PV117,140.000000000,Richmond,Point de vue,ouvert,SE,Gilles Turgeon,GPS Oregon 450,,"-172","60",solid,oui,"-180","-40",oui,-72.139213999999996,45.604798000000002
+"218",PV4,650.051940918,Sutton,Point de vue,ouvert,SE,Jean Lacasse,GPS,,"127","194",solid,oui,"140","-40",oui,-72.565048219999994,45.073394780000001
+"219",PV33,600.970703125,Bolton,Point de vue,ouvert,SE,Michel Bousquet,GPS,"PV km 22,8 Bolton","160","-400",solid,oui,"0","-150",oui,-72.277718000113964,45.271964007988579
+"222",S38 (été),238.511093140,Monts Stoke,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"189","192",solid,oui,"0","60",oui,-71.799773119558836,45.530025476360045
+"225",S42,241.010009766,Sherbrooke,Parking,ouvert,Sherbrooke,Gilles Turgeon,GPS 60CSx antenne,"20130110","0","300",solid,oui,"0","60",oui,-71.892571226000001,45.430352222000003
+"226",PV124,215.775939941,Sherbrooke,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20130110","-250","-50",solid,oui,"-180","-40",oui,-71.896550618000006,45.427097109999998
+"227",PV123,213.765823364,Sherbrooke,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20130110","-200","-70",solid,oui,"-180","-40",oui,-71.896648182999996,45.426128161999998
+"229",S40,148.414718628,Sherbrooke,Parking,ouvert,Sherbrooke,Gilles Turgeon,GPS 60CSx antenne,"20130110","-55","317",solid,oui,"0","60",oui,-71.900342758999997,45.415359680000002
+"230",S41 (été),235.899612427,Sherbrooke,Parking,ouvert,Sherbrooke,Gilles Turgeon,GPS 60CSx antenne,"20130110","60","340",solid,oui,"0","80",oui,-71.896188185000000,45.429904712000003
+"232",PV70,452.250488281,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"400","60",solid,oui,"160","-40",oui,-72.195291202999996,45.379484546999997
+"231",PV69,467.536895752,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"-66","200",solid,oui,"0","60",oui,-72.196312536999997,45.379993831999997
+"233",PV137,455.452453613,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,"20130824","0","225",solid,oui,"-180","-40",oui,-71.721736193722833,45.550060174499066
+"236",S43,309.089599609,Bolton,Parking,ouvert,SE,Jean-Marie Croteau,inconnue,"20130927","73","183",solid,oui,"0","60",oui,-72.260398859999995,45.286815640000000
+"238",PV99,201.624694824,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20131016","300","-300",solid,oui,"160","-40",oui,-72.154205320000003,45.549770359999997
+"237",PV100,200.518173218,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20131016","300","-100",solid,oui,"180","-40",oui,-72.153816219999996,45.550434109999998
+"247",PV105,161.000000000,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20131016","300","-300",solid,oui,"180","-40",oui,-72.136093382644731,45.583842838717793
+"246",PV114,161.387313843,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20131016","-40","-60",solid,non,"0","80",non,-72.136756899999995,45.586257930000002
+"245",PV113,161.353439331,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20131016","-20","-60",solid,non,"0","80",non,-72.135795590000001,45.585124970000003
+"244",PV112,161.110549927,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20131016","-20","-60",solid,non,"0","80",non,-72.134437559999995,45.584590910000003
+"243",PV110,161.669021606,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20131016","-80","-20",solid,non,"0","80",non,-72.132568359999993,45.584346770000003
+"242",PV109,161.006881714,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20131016","100","-100",solid,non,"0","80",non,-72.131202700000003,45.583282470000000
+"241",PV107,161.000000000,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20131016","0","-100",solid,non,"0","80",non,-72.131660460000006,45.582748410000001
+"240",PV108,161.000000000,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20131016","-100","0",solid,non,"0","80",non,-72.132743840000003,45.583667759999997
+"239",PV106,161.000000000,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60 CSx antenne,"20131016","-140","10",solid,non,"0","80",non,-72.132850649999995,45.583122250000002
+"248",S44 (jour),178.766647339,Sherbrooke,Parking,ouvert,SE,Gilles Turgeon,Estimé,"20140102","57","429",solid,oui,"0","80",oui,-71.899994431049038,45.440355508339699
+"22",PV25,711.279663086,Bolton,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,,"-65","-117",solid,oui,"0","-150",oui,-72.398575108856718,45.230194221874036
+"2",Camping Foster,568.809204102,Bolton,Camping rustique,ouvert,SE,Gilles Turgeon,Estimé,,"50","100",solid,oui,"0","80",non,-72.392954618346650,45.227134250934817
+"249",PV97,227.474258423,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS Oregon,"20140928","-121","-177",solid,oui,"-160","-40",oui,-72.174439004082231,45.512665011561261
+"250",PV96,229.985122681,Kingsbury,Point de vue,ouvert,SE,Gilles Turgeon,GPS,Oregon 450 20150619,"-200","-400",solid,oui,"0","-150",oui,-72.170370000000005,45.511816000000003
+"253",PV126,505.591217041,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,"20151025","-150","-300",solid,oui,"180","-40",oui,-71.758668000000000,45.524357999999999
+"252",PV125,379.312744141,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,"20151025","-30","-302",solid,oui,"180","-40",oui,-71.771258000000003,45.520733000000000
+"251",S45,320.000000000,Monts Stoke,Parking,ouvert,SE,Gilles Turgeon,GPS,"20151025","-105","251",solid,oui,"0","60",oui,-71.780266999999995,45.520259000000003
+"159",PV127,430.838684082,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS,"20151025","150","-210",solid,oui,"180","-40",oui,-71.743522662305750,45.529670223091358
+"254",PV38,385.555511475,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,"20151104","-140","50",solid,oui,"-160","-40",oui,-72.255296408999996,45.298238591999997
+"255",PV39,431.223663330,Orford,Point de vue,ouvert,SE,Gilles Turgeon,GPS,"20151104","-157","62",solid,oui,"-160","-40",oui,-72.254939508000007,45.300841425000002
+"1",Lac Trousers,248.339324951,Bolton,Téléphone,ouvert,Camping LAc Trousers,Gilles Turgeon,Estimé,,"-100","-252",no,oui,"0","80",non,-72.335900602953771,45.248506141211102
+"29",Entre Cîmes et Racines,301.825042725,Bolton,Refuge,ouvert,Entre Cîmes et Racines,Gilles Turgeon,Estimé,,"150","150",solid,oui,"0","80",non,-72.304909495705303,45.253801300608913
+"74",S07,232.306304932,Glen,Piquenique,ouvert,SE,Gilles Turgeon,Estimé,,"160","-160",solid,oui,"0","80",non,-72.385909907911980,45.161418123416794
+"104",S17,369.490966797,Orford,Téléphone,ouvert,SE,Gilles Turgeon,Estimé,,"140","100",no,oui,"0","80",non,-72.221414876016013,45.318192234323384
+"105",S18,312.550811768,Orford,Téléphone,ouvert,SE,Gilles Turgeon,Estimé,,"-265","40",no,oui,"0","80",non,-72.239046024333959,45.358252573237024
+"180",S34 (été),130.000000000,Windsor,Parking,ouvert,SE,,GPS,,"-150","150",solid,oui,"0","60",oui,-72.077144341779587,45.609912120450019
+"181",PV155,120.000129700,Windsor,Point de vue,ouvert,SE,Gilles Turgeon,GPS,,"130","80",no,oui,"0","80",oui,-72.090099578960306,45.613702249426339
+"97",Lac Stukeley,310.276184082,Orford,Téléphone,ouvert,SÉPAQ,Gilles Turgeon,Estimé,,"5","80",no,oui,"0","80",non,-72.238025319426242,45.361678794668975
+"30",Place McKenzie,241.427032471,Brompton,Téléphone,ouvert,Plage McKensie,Gilles Turgeon,Estimé,,"130","200",no,oui,"0","80",non,-72.142041444850790,45.473899132602831
+"106",S19,265.922912598,Orford,Téléphone,ouvert,SE,Gilles Turgeon,Estimé,,"430","60",no,oui,"0","80",non,-72.195897529554586,45.329638039906065
+"98",Lac Fraser,270.112579346,Orford,Camping aménagé,ouvert,SÉPAQ,Gilles Turgeon,Estimé,,"100","100",solid,oui,"0","80",non,-72.172863309169756,45.379110432429734
+"178",Refuge 840,837.907043457,Sutton,Refuge,ouvert,PENS,Gilles Turgeon,Estimé,,"150","150",yes,oui,"0","80",non,-72.551959238430271,45.087699344052020
+"106",S19,265.922912598,Orford,Point d'eau,ouvert,SE,Gilles Turgeon,Estimé,,"560","60",no,oui,"0","80",non,-72.195897529554586,45.329638039906065
+"63",S31,232.224212646,Monts Stoke,Téléphone,ouvert,Mont-Élan,Gilles Turgeon,GPS,,"400","160",no,oui,"0","80",non,-71.672728913118902,45.506377176088840
+"63",S31,232.224212646,Monts Stoke,Refuge,ouvert,Mont-Élan,Gilles Turgeon,GPS,,"270","160",no,oui,"0","80",non,-71.672728913118902,45.506377176088840
+"63",S31,232.224212646,Monts Stoke,Camping aménagé,ouvert,Mont-Élan,Gilles Turgeon,GPS,,"140","160",solid,oui,"0","80",non,-71.672728913118902,45.506377176088840
+"257",PV149,509.987060547,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS 60CSx Antenne,"20171125","20","200",solid,oui,"180","-40",oui,-71.672584572999995,45.577977570000002
+"260",PV145,534.968383789,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,"20181127","20","-200",solid,oui,"-180","-40",oui,-71.680831755279343,45.579650121162658
+"51",S30,379.731658936,Monts Stoke,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"0","183",solid,oui,"0","60",oui,-71.676117908350903,45.590921476757195
+"51",S30,379.731658936,Monts Stoke,Piquenique,ouvert,SE,Gilles Turgeon,Estimé,"20190228","-260","183",no,oui,"0","60",non,-71.676117908350903,45.590921476757195
+"93",Le Marais (CCDN),163.031860352,Kingsbury,Refuge,ouvert,CCDN,Gilles Turgeon,GPS 60 CSx,"20131016","300","300",solid,oui,"300","300",,-72.136199950000005,45.585548400000000
+"261",PV148,649.356201172,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS sans antennte,"20190307","-500","180",oui,oui,"0","80",oui,-71.679135879519634,45.571383681038718
+"263",PV156,270.000000000,Bolton,Point de vue,ouvert,SE,Gilles Turgeon,Estimé,"20190314","-60","-400",Solid,oui,"0","-150",oui,-72.315453316619255,45.275009516949453
+"10",S13,249.260437012,Bolton,Parking,ouvert,SE,Gilles Turgeon,Estimé,,"150","-60",solid,oui,"0","-150",oui,-72.332256928305753,45.273404250870342
+"264",PV157,629.281982422,Monts Stoke,Point de vue,ouvert,SE,Gilles Turgeon,GPS antenne,"20190827","-200","-150",Solid,oui,"180","-40",oui,-71.679675890977407,45.571002364860810
+"265",PV158,495.991424561,inconnue,Point de vue,ouvert,SE,Gilles Turgeon,GPS antenne,"20200912","40","300",oui,oui,"-160","-40",oui,-71.742153000000002,45.533493999999997

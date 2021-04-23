@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Les Sentiers de l'Estrie",
+    "slug": "sentiersMobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/testDePNG.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ca.lessentiersdelestrie.sentiersEstrie",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "ca.lessentiersdelestrie.sentiersEstrie",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBdJhzS0UWAeOvJJPjlFjYkKiD785K78YE"
+        }
+      },
+      "versionCode": 1,
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

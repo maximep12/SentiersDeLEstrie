@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA28wH49TM50Kk81Owjih/pAAAAAACAAAAAAAQZgAAAAEAACAAAAB9RB9a1enSYXL4hqgjh65Ec+RZQ8Z0IVUdn5OyTUqh1wAAAAAOgAAAAAIAACAAAABOxdcKlT0cimDEtVcvCXvkqRgl+AwWYLGqs/jGwOWAmyAAAADtQgiZTI3530FxOiEg34rn1aPyusChCp8uTYl3n3225EAAAAAdyISCS51WidBN8TiDqR3bviQa28Fi4zcMxtGXs3zoCzh7eRsFG9sO+pVtQt18KO+5H0lqvN7qkcgbTFXtR9Ep</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.lessentiers.web810.discountasp.net/e:\web\lessentiers\htdocs</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>
